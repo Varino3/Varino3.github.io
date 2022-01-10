@@ -1,0 +1,13 @@
+#menu{
+    display: flex;
+}
+#logo{
+    width: 4rem;
+}
+#logo img{
+    width: 100%;
+}
+#enlaces a{
+    text-decoration: none;
+    
+}
