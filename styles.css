@@ -1,13 +1,56 @@
+body{
+    margin: 0px;
+    background-image: url(img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(82, 0, 158);
+}
 #menu{
     display: flex;
+    background-color: rgb(223, 223, 223);
+    border-bottom: 4px solid rgb(82, 0, 158);
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.8rem 0rem;
 }
 #logo{
-    width: 4rem;
+    width: 6rem;
 }
 #logo img{
     width: 100%;
+    min-width: 50px;
+}
+#enlaces{
+    display: flex;
 }
 #enlaces a{
     text-decoration: none;
-    
+    font-size: 3rem;
+    margin: 0rem 2rem;
+    color: rgb(82, 0, 158);
+}
+#formulario{
+    display: flex;
+    flex-direction: column;
+}
+.formato_formulario{
+    margin-bottom: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+#formulario button{
+    width: 100%;
+}
+
+#imagenes{
+    background-color: rgb(223, 223, 223);
+    width: 75%;
+    margin: auto;
+}
+#imagenes img{
+    width: 33%;
 }
